@@ -7,16 +7,13 @@ public class CurrentConditionsDisplay implements Observer,DisplayElement {
     private float humidity;
 
     public CurrentConditionsDisplay(Subject weatherData) {
-
         this.weatherData = weatherData;
         weatherData.registerObserver(this);
-
     }
 
     @Override
     public void display() {
         System.out.println("显示当前观测的值");
-
     }
 
     @Override
