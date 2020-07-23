@@ -15,7 +15,6 @@ public class MatchMakingTestDrive {
                                 person.getClass().getInterfaces(),
                                 new OwnerInvocationHandler(person));
 
-
     }
 
 
